@@ -1,0 +1,93 @@
+Adaptive Search
+Proximity Measure
+Coding Challenge
+================
+ 
+Overview
+--------
+You are asked to complete the coding challenge which is described in detail in
+the following paragraphs. Kindly note the following requirements:
+ 
+* Use the Python 2.7+ programming language to complete the challenge.
+* Do not use any external libraries, only the pure Python 2.7+ core modules.
+* Structure your code into a Python module and add a simple unit test.
+* Comment your code wisely.
+ 
+It should not take you more than 3 hours to complete the challenge.
+ 
+ 
+Challenge
+---------
+ 
+The challenge consists in writing a piece of code which returns a **proximity
+measure** between an arbitrary query string (consisting of one or multiple
+words) and a reference text (consisting of many words).
+A simple example implementation is provided below::
+ 
+    def proximity(text, query_string):
+        """Return a Boolean proximity measure, `True` if `query_string` is present
+        in `text`, `False` if not.
+        """
+        ret = query_string in text
+        return ret
+ 
+ 
+Obviously, a more elaborate proximity measure is to be implemented that e.g.
+takes into account the length of the reference text, the location of the
+matching terms, the occurrence of known normalization tokens, etc. It is up to
+you to decide what kind of features to include in your algorithm. Moreover, a
+return value other than a simple Boolean should be added. Usually, these kind
+of algorithms return a floating point number between zero and one.
+ 
+In general, it is better to have a simple working solution than no solution at
+all. However, an implementation which is too simplistic is not ideal either.
+In that sense you must compromise on the complexity and completeness of your
+approach, given the restricted time frame of 3 hours.
+ 
+ 
+Examples
+````````
+To facilitate the implementation the following examples can be used:
+ 
+* Sample query string:
+ 
+  * "Continental"
+  * "Continental Breakfast in Zürich"
+  * "Continental Automotive Systems, Inc. in Morgaton, NC"
+  * "This is not a system"
+ 
+* Sample Texts:
+ 
+  * Continental does not have an office in Zürich.
+ 
+  * The Burke County location of Continental is a division of a larger
+    corporation with sales of around $46 billion in 2013. Continental is among
+    the leading automotive suppliers worldwide. As a supplier of brake
+    systems, systems and components for powertrains and chassis,
+    instrumentation, infotainment solutions, vehicle electronics, tires, and
+    technical elastomers, Continental contributes to enhanced driving safety
+    and global climate protection.  Continental is also an expert partner in
+    networked automobile communication.  Continental currently employs around
+    178,000 people in 49 countries. The two Morganton facilities are part of
+    the Vehicle Dynamics Business Unit, which is one of four Business Units
+    within Continental.
+ 
+  * “We are proud of our company, our products and our facilities,” said Naomi
+    Cole, senior human resource manager for Continental Automotive Systems in
+    Morganton. “Each of us has an important job to do, and ultimately the
+    success of our company depends upon how well we individually and
+    collectively perform our jobs and ultimately satisfy our customers. We
+    seek employees who have the ability to contribute toward our success in a
+    meaningful way. It is the success of our company as a profitable business
+    that will increase our job security, opportunities for personal growth,
+    and support Burke and the surrounding counties.”
+ 
+  * The report reveals that Bridgestone, Michelin, Goodyear, Pirelli and
+    Continental are few of the dominant tyre manufacturers in the UAE,
+    accounting for a substantial share in the country's tyre market. These
+    leading players are constantly growing due to their well-established
+    supply chain network, comprising exclusive distributorships and local
+    dealers.
+
+
+

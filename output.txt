@@ -1,0 +1,313 @@
+/usr/bin/python3.7 /home/fedebyes/Workspace/Squirro/test.py
+
+Query "Continental" in text
+            Continental does not have an office in Zürich.
+
+
+Return Value:  (True, 0.99125)
+==================================================
+
+Query "Continental" in text
+             The Burke County location of Continental is a division of a larger
+            corporation with sales of around $46 billion in 2013. Continental is among
+            the leading automotive suppliers worldwide. As a supplier of brake
+            systems, systems and components for powertrains and chassis,
+            instrumentation, infotainment solutions, vehicle electronics, tires, and
+            technical elastomers, Continental contributes to enhanced driving safety
+            and global climate protection.  Continental is also an expert partner in
+            networked automobile communication.  Continental currently employs around
+            178,000 people in 49 countries. The two Morganton facilities are part of
+            the Vehicle Dynamics Business Unit, which is one of four Business Units
+            within Continental.
+
+Return Value:  (True, 0.9900990099009901)
+==================================================
+
+Query "Continental" in text
+            We are proud of our company, our products and our facilities,” said Naomi
+            Cole, senior human resource manager for Continental Automotive Systems in
+            Morganton. “Each of us has an important job to do, and ultimately the
+            success of our company depends upon how well we individually and
+            collectively perform our jobs and ultimately satisfy our customers. We
+            seek employees who have the ability to contribute toward our success in a
+            meaningful way. It is the success of our company as a profitable business
+            that will increase our job security, opportunities for personal growth,
+            and support Burke and the surrounding counties.
+
+
+Return Value:  (True, 0.9901)
+==================================================
+
+Query "Continental" in text
+            The report reveals that Bridgestone, Michelin, Goodyear, Pirelli and
+            Continental are few of the dominant tyre manufacturers in the UAE,
+            accounting for a substantial share in the country's tyre market. These
+            leading players are constantly growing due to their well-established
+            supply chain network, comprising exclusive distributorships and local
+            dealers.
+
+
+Return Value:  (True, 0.990204081632653)
+==================================================
+
+Query "Continental Breakfast in Zürich" in text
+            Continental does not have an office in Zürich.
+
+
+Return Value:  (False, 0.48208333333333336)
+==================================================
+
+Query "Continental Breakfast in Zürich" in text
+             The Burke County location of Continental is a division of a larger
+            corporation with sales of around $46 billion in 2013. Continental is among
+            the leading automotive suppliers worldwide. As a supplier of brake
+            systems, systems and components for powertrains and chassis,
+            instrumentation, infotainment solutions, vehicle electronics, tires, and
+            technical elastomers, Continental contributes to enhanced driving safety
+            and global climate protection.  Continental is also an expert partner in
+            networked automobile communication.  Continental currently employs around
+            178,000 people in 49 countries. The two Morganton facilities are part of
+            the Vehicle Dynamics Business Unit, which is one of four Business Units
+            within Continental.
+
+Return Value:  (False, 0.4595627062706271)
+==================================================
+
+Query "Continental Breakfast in Zürich" in text
+            We are proud of our company, our products and our facilities,” said Naomi
+            Cole, senior human resource manager for Continental Automotive Systems in
+            Morganton. “Each of us has an important job to do, and ultimately the
+            success of our company depends upon how well we individually and
+            collectively perform our jobs and ultimately satisfy our customers. We
+            seek employees who have the ability to contribute toward our success in a
+            meaningful way. It is the success of our company as a profitable business
+            that will increase our job security, opportunities for personal growth,
+            and support Burke and the surrounding counties.
+
+
+Return Value:  (False, 0.43665)
+==================================================
+
+Query "Continental Breakfast in Zürich" in text
+            The report reveals that Bridgestone, Michelin, Goodyear, Pirelli and
+            Continental are few of the dominant tyre manufacturers in the UAE,
+            accounting for a substantial share in the country's tyre market. These
+            leading players are constantly growing due to their well-established
+            supply chain network, comprising exclusive distributorships and local
+            dealers.
+
+
+Return Value:  (False, 0.3349829931972789)
+==================================================
+
+Query "Continental Automotive Systems, Inc. in Morgaton, NC" in text
+            Continental does not have an office in Zürich.
+
+
+Return Value:  (False, 0.25160714285714286)
+==================================================
+
+Query "Continental Automotive Systems, Inc. in Morgaton, NC" in text
+             The Burke County location of Continental is a division of a larger
+            corporation with sales of around $46 billion in 2013. Continental is among
+            the leading automotive suppliers worldwide. As a supplier of brake
+            systems, systems and components for powertrains and chassis,
+            instrumentation, infotainment solutions, vehicle electronics, tires, and
+            technical elastomers, Continental contributes to enhanced driving safety
+            and global climate protection.  Continental is also an expert partner in
+            networked automobile communication.  Continental currently employs around
+            178,000 people in 49 countries. The two Morganton facilities are part of
+            the Vehicle Dynamics Business Unit, which is one of four Business Units
+            within Continental.
+
+Return Value:  (False, 0.2573597359735973)
+==================================================
+
+Query "Continental Automotive Systems, Inc. in Morgaton, NC" in text
+            We are proud of our company, our products and our facilities,” said Naomi
+            Cole, senior human resource manager for Continental Automotive Systems in
+            Morganton. “Each of us has an important job to do, and ultimately the
+            success of our company depends upon how well we individually and
+            collectively perform our jobs and ultimately satisfy our customers. We
+            seek employees who have the ability to contribute toward our success in a
+            meaningful way. It is the success of our company as a profitable business
+            that will increase our job security, opportunities for personal growth,
+            and support Burke and the surrounding counties.
+
+
+Return Value:  (True, 0.642604761904762)
+==================================================
+
+Query "Continental Automotive Systems, Inc. in Morgaton, NC" in text
+            The report reveals that Bridgestone, Michelin, Goodyear, Pirelli and
+            Continental are few of the dominant tyre manufacturers in the UAE,
+            accounting for a substantial share in the country's tyre market. These
+            leading players are constantly growing due to their well-established
+            supply chain network, comprising exclusive distributorships and local
+            dealers.
+
+
+Return Value:  (False, 0.23238095238095235)
+==================================================
+
+Query "This is not a system" in text
+            Continental does not have an office in Zürich.
+
+
+Return Value:  (False, 0.20425000000000001)
+==================================================
+
+Query "This is not a system" in text
+             The Burke County location of Continental is a division of a larger
+            corporation with sales of around $46 billion in 2013. Continental is among
+            the leading automotive suppliers worldwide. As a supplier of brake
+            systems, systems and components for powertrains and chassis,
+            instrumentation, infotainment solutions, vehicle electronics, tires, and
+            technical elastomers, Continental contributes to enhanced driving safety
+            and global climate protection.  Continental is also an expert partner in
+            networked automobile communication.  Continental currently employs around
+            178,000 people in 49 countries. The two Morganton facilities are part of
+            the Vehicle Dynamics Business Unit, which is one of four Business Units
+            within Continental.
+
+Return Value:  (False, 0.3894283828382839)
+==================================================
+
+Query "This is not a system" in text
+            We are proud of our company, our products and our facilities,” said Naomi
+            Cole, senior human resource manager for Continental Automotive Systems in
+            Morganton. “Each of us has an important job to do, and ultimately the
+            success of our company depends upon how well we individually and
+            collectively perform our jobs and ultimately satisfy our customers. We
+            seek employees who have the ability to contribute toward our success in a
+            meaningful way. It is the success of our company as a profitable business
+            that will increase our job security, opportunities for personal growth,
+            and support Burke and the surrounding counties.
+
+
+Return Value:  (False, 0.34823333333333334)
+==================================================
+
+Query "This is not a system" in text
+            The report reveals that Bridgestone, Michelin, Goodyear, Pirelli and
+            Continental are few of the dominant tyre manufacturers in the UAE,
+            accounting for a substantial share in the country's tyre market. These
+            leading players are constantly growing due to their well-established
+            supply chain network, comprising exclusive distributorships and local
+            dealers.
+
+
+Return Value:  (False, 0.19902040816326533)
+==================================================
+
+Query "brown" in text
+            This is a brown dog
+
+Return Value:  (True, 0.992)
+==================================================
+
+Query "brown" in text
+            This dog is really brown
+
+
+Return Value:  (True, 0.992)
+==================================================
+
+Query "brown" in text
+            The dog is brown but this document is very very long
+
+
+Return Value:  (True, 0.9909090909090909)
+==================================================
+
+Query "dog is brown" in text
+            This is a brown dog
+
+Return Value:  (True, 0.8145185185185184)
+==================================================
+
+Query "dog is brown" in text
+            This dog is really brown
+
+
+Return Value:  (True, 0.8508148148148147)
+==================================================
+
+Query "dog is brown" in text
+            The dog is brown but this document is very very long
+
+
+Return Value:  (True, 0.8838383838383838)
+==================================================
+
+Query "brown dig" in text
+            This is a brown dog
+
+Return Value:  (False, 0.499)
+==================================================
+
+Query "brown dig" in text
+            This dog is really brown
+
+
+Return Value:  (False, 0.499)
+==================================================
+
+Query "brown dig" in text
+            The dog is brown but this document is very very long
+
+
+Return Value:  (False, 0.4968181818181818)
+==================================================
+
+Query "brown dig" in text
+            The dog is red but the fox is brown"
+
+
+Return Value:  (False, 0.49722222222222223)
+==================================================
+
+Query "Morganon" in text
+            We are proud of our company, our products and our facilities,” said Naomi
+            Cole, senior human resource manager for Continental Automotive Systems in
+            Morganton. “Each of us has an important job to do, and ultimately the
+            success of our company depends upon how well we individually and
+            collectively perform our jobs and ultimately satisfy our customers. We
+            seek employees who have the ability to contribute toward our success in a
+            meaningful way. It is the success of our company as a profitable business
+            that will increase our job security, opportunities for personal growth,
+            and support Burke and the surrounding counties.
+
+
+Return Value:  (True, 0.9901)
+==================================================
+
+Query "dog long" in text
+            This is a brown dog
+
+Return Value:  (False, 0.499)
+==================================================
+
+Query "dog long" in text
+            This dog is really brown
+
+
+Return Value:  (False, 0.499)
+==================================================
+
+Query "dog long" in text
+            The dog is brown but this document is very very long
+
+
+Return Value:  (False, 0.5018181818181818)
+==================================================
+
+
+
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.254s
+
+OK
+
+Process finished with exit code 0
